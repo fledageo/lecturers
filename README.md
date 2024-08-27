@@ -1,3 +1,29 @@
+# Lecturers Manager
+
+This project is a simple web application designed for managing lecturer profiles. It provides a user-friendly interface for adding, viewing, and editing lecturer details, with robust image handling capabilities.
+
+## Key Features:
+
+### Add Lecturer:
+Create new lecturer profiles by filling out a form with details such as name, surname, and subject.
+Upload an image for the lecturer. The image is processed and saved to a dedicated images folder on the server using efficient file handling techniques (stream and buffer).
+
+### View Lecturers:
+Browse a list of all lecturers with their associated details and images. Each profile displays the lecturer's name, surname, subject, and their uploaded image.
+
+### Edit Lecturer:
+Update the information for an existing lecturer. This includes changing the name, surname, subject, and optionally updating the lecturer's image. If a new image is uploaded, the old one is removed and replaced with the new image in the images folder.
+
+### Image Handling:
+Images are processed on the server side using stream and buffer methods to ensure efficient and reliable file management. The use of createWriteStream allows for writing files directly to the server's filesystem, while Buffer.from is used to convert the uploaded image data into a format suitable for saving.
+
+
+
+
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
