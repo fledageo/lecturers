@@ -1,0 +1,15 @@
+.lecturer_block{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img-block{
+    width: 100px;
+    height: 130px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.lecturers_box{
+    display: flex;
+}
